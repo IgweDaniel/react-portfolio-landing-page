@@ -5,6 +5,7 @@ import {
   Skills,
   Portfolio,
   Testimonials,
+  Pricing,
 } from "./components";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Skills />
       <Portfolio />
       <Testimonials />
+      <Pricing />
       <div className="h-[500px]"></div>
     </React.Fragment>
   );

@@ -9,7 +9,7 @@ import walmartlogo from "../assets/svg/walmart.svg";
 const logos = [chaselogo, asanalogo, googlelogo, buzzFeedlogo, , , walmartlogo];
 export const Affiliates = () => {
   return (
-    <div className="container flex justify-between mt-10">
+    <div className="container flex justify-between mt-12">
       {logos.map((logo) => (
         <div className="" key={logo}>
           <img src={logo} alt="" className="h-[30px]" />
